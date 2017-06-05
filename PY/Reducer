@@ -1,0 +1,52 @@
+#!/usr/bin/python
+
+from operator import itemgetter
+import sys
+
+actual = None
+contador = 0
+word = None
+mayor_mes = 0
+mes = None
+mayor_tienda = 0
+tienda = None
+
+for line in sys.stdin:
+    line = line.strip()
+    word, count = line.split('\t', 1)
+    try:
+        count = int(count)
+    except ValueError:     
+        continue
+    
+    if actual == word:                
+        contador += count        
+    else:
+        if actual:          
+           
+            if len(actual) <= 3:
+                print ('Mes: %s\t%s' % (actual, contador))
+                if contador > mayor_mes:
+                    mayor_mes = contador
+                    mes = actual
+            if len(actual) > 3:
+                print ('Tienda: %s\t%s' % (actual, contador))
+                if contador > mayor_tienda:
+                    mayor_tienda = contador
+                    tienda = actual
+        contador = count
+        actual = word
+
+if actual == word:
+    if len(actual) <= 3:
+        print ('Mes: %s\t%s' % (actual, contador))
+        if contador > mayor_mes:
+            mayor_mes = contador
+            mes = actual
+    if len(actual) > 3:
+        print ('Tienda: %s\t%s' % (actual, contador))
+        if contador > mayor_tienda:
+            mayor_tienda = contador
+            tienda = actual
+print('Mayor Mes -> %s : %s' % (mes,mayor_mes))
+print('Mayor Tienda -> %s : %s' % (tienda,mayor_tienda))
