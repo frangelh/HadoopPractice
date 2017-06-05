@@ -1,9 +1,0 @@
-#!/usr/bin/kotlinc-jvm
-
-val line : List<String> = args[0].split("\n")
-for(pal in line){
-        val words: List<String> = pal.split("\t")
-        val tienda = words[0]
-        val cantidad = words[2]
-        println(tienda +"\t"+cantidad)
-    }
