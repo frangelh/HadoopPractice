@@ -30,7 +30,7 @@ for line in sys.stdin:
                     mayor_mes = contador
                     mes = actual
             if len(actual) > 3:
-                print ('Tienda: %s\t%s' % (actual, contador))
+                print ('Ciudad: %s\t%s' % (actual, contador))
                 if contador > mayor_tienda:
                     mayor_tienda = contador
                     tienda = actual
@@ -44,9 +44,9 @@ if actual == word:
             mayor_mes = contador
             mes = actual
     if len(actual) > 3:
-        print ('Tienda: %s\t%s' % (actual, contador))
+        print ('Ciudad: %s\t%s' % (actual, contador))
         if contador > mayor_tienda:
             mayor_tienda = contador
             tienda = actual
 print('Mayor Mes -> %s : %s' % (mes,mayor_mes))
-print('Mayor Tienda -> %s : %s' % (tienda,mayor_tienda))
+print('Mayor Ciudad -> %s : %s' % (tienda,mayor_tienda))

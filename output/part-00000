@@ -1,21 +1,21 @@
-Tienda: BurgerKing	3688471
-Tienda: Dominos	3628473
-Tienda: HeladosBon	3495353
-Tienda: Macdonalds	3569548
-Tienda: PizzaHut	3512407
-Tienda: Pizzarelli	3554718
-Tienda: Quiznos	3630529
-Mes: abr	2085317
-Mes: ago	1996367
-Mes: dic	1903064
-Mes: ene	2016126
-Mes: feb	2069928
-Mes: jul	2112174
-Mes: jun	2074671
-Mes: mar	2154927
-Mes: may	2172260
-Mes: nov	2143061
-Mes: oct	2268853
-Mes: sep	2082751
-Mayor Mes -> oct : 2268853	
-Mayor Tienda -> BurgerKing : 3688471	
+Ciudad: Duarte	3559577
+Ciudad: LaVega	3606732
+Ciudad: Moca	3581012
+Ciudad: Salcedo	3690635
+Ciudad: Santiago	3749008
+Ciudad: SantoDomingo	3555305
+Ciudad: Trinidad	3406003
+Mes: abr	2048629
+Mes: ago	2200354
+Mes: dic	1965010
+Mes: ene	2260938
+Mes: feb	2032807
+Mes: jul	2224620
+Mes: jun	1969794
+Mes: mar	2150634
+Mes: may	2133586
+Mes: nov	2043447
+Mes: oct	2077061
+Mes: sep	2041392
+Mayor Mes -> ene : 2260938	
+Mayor Ciudad -> Santiago : 3749008	
